@@ -6,13 +6,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #fff;
+  color: white;
 }
 
 .container {
   max-width: 750px;
   margin: 50px auto;
-  background: rgba(0, 0, 0, 0.7); /* semi-transparent overlay */
+  background: rgba(0, 0, 0, 0.75); /* semi-transparent black for readability */
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -21,18 +21,26 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  color: white;
 }
 
 h2 {
-  color: #00bfff;
+  font-size: 1.8rem;
   margin-top: 30px;
+  color: white;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
 }
 
 a {
-  color: #00bfff;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #dddddd;
 }
